@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	color: #fff;
+	background-image: url(../images/backgroundbulls.jpg);
+	font-family: "bradley_gratisregular", Arial, san-serif;
+	font-size: 25px;
+	
+}
+
+header{
+	height: 200px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+
+h1{
+	font-size: 200%;
+}
+
+h2{
+	font-size: 150%;
+	margin-bottom: 20px;
+	/*color: blue;*/
+}
+
+div{
+	padding: 20px 30px;
+}
+
+p{
+	margin: 10px;
+}
+
+
+
+.wrapper{
+	margin: 0 auto;
+	width: 960px;
+	text-align: center;
+}
+
+.logo img{
+	width: 50%;
+	height: 50%;
+}
+
+
+.status{
+	float:left;
+	height: 300px;
+	width: 30%;
+	border: 3px solid #fff;
+}
+
+.game-window{
+	float: right;
+	height: 300px;
+	width: 70%;
+	border: 3px solid #fff;
+}
+
+.game-window p{
+	margin-top: 40px;
+}
+
+.player-info{
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+	height: 200px;
+	border: 3px solid #fff;
+}
+
+#currentWord{
+	text-transform: uppercase;
+	font-size: 250%;
+}
+
+#wins{
+	font-size: 250%;
+}
+
+
+#guesses{
+	position: relative;
+	top: -25px;
+	left: -5px;
+	font-size: 150%;
+	z-index: 1;
+}
+
+#guessedLetters{
+	font-size: 250%;
+	text-transform: uppercase;
+}
+
+#warning{
+	font-size: 150%;
+}
+
+
+

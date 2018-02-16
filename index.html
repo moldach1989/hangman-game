@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman Chicago Bulls Edition</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.4/howler.min.js"></script>
+</head>
+<body>
+
+	<!-- Logo Header -->
+	<header>
+		<div class="wrapper">
+				
+			<div class="logo">
+				
+				<img src="assets/images/hangman.png">
+				<div class="subtitle">
+					<h1>Chicago Bulls Edition</h1>
+				</div>
+			</div>
+			
+		</div>
+		
+	</header>
+
+	<!-- Main Game Screen -->
+	<section>
+		<div class="wrapper">
+			<h2>Press Any Key to get started!</h2>
+			<div class="status">
+
+				<h3>Win Streak: </h3>
+				<p><span id="wins"></span></p>
+				<h3>Number of Guesses Left: </h3>
+				<div id="guess">
+					<p>
+						<span id="guesses"></span>
+					</p>
+				</div>
+			</div>
+			<div class="game-window">
+				<p>Current Word: </p>
+				<p><span id="currentWord"></span></p>
+			</div>
+
+			<div class="player-info">
+				
+				<p>Letters already guessed</p>
+				<p><span id="guessedLetters"></span></p>
+				
+				<p id="warning"></p>
+			</div>
+			
+			
+			
+			
+			
+				
+		</div>
+		
+	</section>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
